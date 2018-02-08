@@ -4,7 +4,7 @@
 # (C) Copyright IBM Corp. 2017. All Rights Reserved.
 # US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 
-if ! [ $# -eq 4 ] ;  then
+if ! [ $# -eq 5 ] ;  then
   echo "Requires five parameters: the image name you want, the tag you want, the ca domain name, the username to push it as, and the Dockerfile location"
   echo "E.g. ./BuildAndPushPrivate.sh icp-nodejs-sample-amd64 1.0.0 mycluster.icp admin docker-6/Dockerfile"
   exit;
