@@ -41,7 +41,7 @@ docker tag ${image_name}:${image_tag} ${ca_domain}:8500/${image_name}:${image_ta
 if [ $? -ne 0 ]; then
   echo "Didn't tag your image successfully, bailing"; exit;
 fi
-docker login -u ${docker_user} ${ca_domain}:8500
+
 echo "Docker pushing..."
 docker push ${ca_domain}:8500/default/${image_name}:${image_tag}
 if [ $? -ne 0 ]; then
