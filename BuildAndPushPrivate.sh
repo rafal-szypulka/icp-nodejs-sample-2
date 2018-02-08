@@ -6,7 +6,7 @@
 
 if ! [ $# -eq 4 ] ;  then
   echo "Requires five parameters: the image name you want, the tag you want, the ca domain name, the username to push it as, and the Dockerfile location"
-  echo "E.g. ./BuildAndPushPrivate.sh icp-nodejs-sample-amd64 1.0.0 docker-6/Dockerfile mycluster.icp"
+  echo "E.g. ./BuildAndPushPrivate.sh icp-nodejs-sample-amd64 1.0.0 mycluster.icp admin docker-6/Dockerfile"
   exit;
 fi
 
