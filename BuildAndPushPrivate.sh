@@ -24,7 +24,7 @@ echo "CA domain will be: ${ca_domain}"
 echo "Docker user: ${docker_user}"
 echo "File to use: ${file_to_use}"
 
-docker login -u ${docker_id}
+docker login -u ${docker_user} ${ca_domain}:8500
 
 if [ $? -ne 0 ]; then
   echo "Didn't login successfully, bailing"; exit;

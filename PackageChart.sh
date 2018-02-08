@@ -1,1 +1,1 @@
-helm package chart/ibm-nodejs-sample
+helm package chart/ibm-nodejs-sample-apm

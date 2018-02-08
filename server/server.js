@@ -30,6 +30,7 @@ if (process.env.USE_ZIPKIN) {
 // Important these are after appzip so we get the spans
 require('appmetrics-dash').attach();
 require('appmetrics-prometheus').attach();
+require('./ibmapm');
 
 const appName = require('./../package').name;
 const express = require('express');
