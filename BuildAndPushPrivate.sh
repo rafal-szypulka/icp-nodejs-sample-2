@@ -37,7 +37,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Docker tagging..."
-docker tag ${image_name}:${image_tag} ${ca_domain}:8500/${image_name}:${image_tag}
+docker tag ${image_name}:${image_tag} ${ca_domain}:8500/default/${image_name}:${image_tag}
 if [ $? -ne 0 ]; then
   echo "Didn't tag your image successfully, bailing"; exit;
 fi
