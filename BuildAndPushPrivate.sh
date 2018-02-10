@@ -46,5 +46,5 @@ echo "Docker pushing..."
 docker push ${ca_domain}:8500/default/${image_name}:${image_tag}
 if [ $? -ne 0 ]; then
   echo "Didn't push your image successfully, bailing"; exit;
-
+fi
 echo "Done!"
