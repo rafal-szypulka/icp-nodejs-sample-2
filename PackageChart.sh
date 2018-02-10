@@ -1,2 +1,2 @@
 helm init --client-only
-helm package chart/ibm-nodejs-sample-apm
+helm package chart/ibm-nodejs-sample-apm-2
