@@ -7,8 +7,8 @@ replicaCount: 1
 revisionHistoryLimit: 1
 image:
   # Production image
-  repository: mycluster.icp:8500/default/icp-nodejs-sample-apm:1.0.0
-  tag: latest
+  repository: mycluster.icp:8500/default/icp-nodejs-sample-apm
+  tag: 1.0.0
   # tag: 6
   # tag: 8
   pullPolicy: Always
