@@ -14,7 +14,7 @@ echo "Make sure you've copied the ca.crt contents from your ICP instance to be a
 
 image_name="icp-nodejs-sample-apm-2"
 image_tag="1.0.0"
-ca_domain="mycluster.icp"
+ca_domain="bluedemocluster.icp"
 docker_user="admin"
 docker_file="docker-6/Dockerfile"
 
